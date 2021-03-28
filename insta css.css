@@ -1,0 +1,92 @@
+@font-face {
+	font-family: Blue;
+	src: url(fonts/Blue.otf);
+}
+
+*{
+	box-sizing: border-box;
+}
+.elements {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+}
+.img {
+	width: auto;
+	max-height: 100%;
+}
+.img img{
+	width: 100%;
+	height: auto;
+}
+
+.login_elmts {
+	text-align: center;
+	border: solid 1px gray;
+	padding: 20px;
+	max-width: auto;
+	display: block;
+}
+
+.title {
+	font-family: Blue;
+	font-size: 30px;
+	margin-top: 0;
+}
+.text_camp {
+	height: 35px;
+	margin-right: 0px;
+	margin-top: 6px;
+	width: 200px;
+	padding: 10px;
+	border: solid 0.5px gray;
+}
+
+.text_camp:focus {
+	outline: 0;
+}
+
+.botão {
+	width: 100%;
+	margin-top: 8px;
+	margin-bottom: 6px;
+	background-color: #005eff;
+	border: solid 0.5px gray;
+	border-radius: 5px;
+	color: white;
+}
+
+.int {
+	display: flex;
+}
+
+.ou {
+	color: #8e8e8e;
+	margin: 0 8px;
+	margin-bottom: 6px;
+	font-size: 10px;
+	top: 3px;
+	position: relative;
+}
+
+.space{
+	width: 50%;
+	height: 1px;
+	background-color: #8e8e8e;
+	top: .45em;
+	position: relative;
+}
+
+.icon {
+	width: auto;
+	height: 15px;
+}
+
+a {
+	text-decoration: none;
+	color: #1e1782;
+}
